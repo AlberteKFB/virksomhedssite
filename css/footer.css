@@ -1,0 +1,78 @@
+a {
+  color: #f2e9ce;
+}
+footer {
+  background-color: #332924;
+}
+ul {
+  list-style: none;
+  color: #f2e9ce;
+  font-size: 20px;
+}
+h3 {
+  color: #f2e9ce;
+}
+
+p {
+  color: #f2e9ce;
+}
+
+.div1,
+.div2,
+.div3 {
+  border: 1px solid #f2e9ce;
+  padding: 1em;
+}
+
+.div2 {
+  display: flex; /* Bruger Flexbox */
+  flex-direction: column; /* Stabler elementerne i en kolonne */
+  align-items: center; /* Centrerer elementerne horisontalt */
+}
+.some {
+  display: flex; /* Bruger Flexbox */
+  justify-content: space-between; /* Fordeler pladsen mellem elementerne */
+  width: 100%; /* Sørger for at flex-containeren tager hele bredden */
+  max-width: 200px; /* Justerer maksimal bredden for flex-containeren */
+  margin-top: 10px; /* Tilføjer lidt topmargin for at skabe afstand */
+}
+
+.logo {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  justify-content: center;
+}
+
+.div1 {
+  border: 1px solid #f2e9ce;
+  padding: 1em;
+  line-height: 260%;
+}
+
+.div1 h3 {
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dage,
+.tider {
+  width: 45%;
+  padding: 0;
+  margin: 10%;
+  list-style: none;
+}
+
+.dage {
+  text-align: left;
+}
+
+.tider {
+  text-align: right;
+}
