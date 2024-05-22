@@ -16,3 +16,7 @@ html {
     --color5: #F2E9CE;
     --color6: #332924;
 }
+
+html, body {
+    margin: 0 auto;
+}
