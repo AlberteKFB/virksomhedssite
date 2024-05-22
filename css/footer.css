@@ -15,6 +15,7 @@ h3 {
 
 p {
   color: #f2e9ce;
+  font-size: 20px;
 }
 
 .div1,
@@ -28,13 +29,14 @@ p {
   display: flex; /* Bruger Flexbox */
   flex-direction: column; /* Stabler elementerne i en kolonne */
   align-items: center; /* Centrerer elementerne horisontalt */
+  padding: 10%;
 }
 .some {
-  display: flex; /* Bruger Flexbox */
-  justify-content: space-between; /* Fordeler pladsen mellem elementerne */
-  width: 100%; /* Sørger for at flex-containeren tager hele bredden */
-  max-width: 200px; /* Justerer maksimal bredden for flex-containeren */
-  margin-top: 10px; /* Tilføjer lidt topmargin for at skabe afstand */
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  max-width: 200px;
+  margin-top: 10px;
 }
 
 .logo {
@@ -75,4 +77,39 @@ p {
 
 .tider {
   text-align: right;
+}
+
+.div3 h3 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+}
+@media (min-width: 500px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+  }
+
+  .div1 {
+    grid-column: 1;
+    line-height: 140%;
+  }
+
+  .div2 {
+    grid-column: 2;
+  }
+
+  .div3 {
+    grid-column: 3;
+  }
+
+  a {
+    padding-top: 30%;
+    scale: 160%;
+  }
+  .some {
+    width: 40%;
+  }
 }
