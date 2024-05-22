@@ -23,7 +23,6 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #00BAF0;
     background: #332924;
     color: #FFF;
     height: 100px;
@@ -46,7 +45,7 @@ nav {
 .menu > li {
     margin: 0;
     border-left: 1px solid #F2E9CE;
-    padding: 1em;
+    padding: 2em;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -140,16 +139,4 @@ nav{
         justify-content: center;
         margin: 0;
         padding: 1em 0;
-        width: 100%;
-        color: white;
-        background-color: #332924;
-    }
-
-    .menu > li:not(:last-child) {
-        border-bottom: 1px solid #F2E9CE;
-    }
-
-    header section {
-        border-bottom: 1px solid #F2E9CE;
-    }
-}
+        width: 10

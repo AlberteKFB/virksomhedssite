@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'DM Serif';
+    src: url(../font/dmserifdisplay-regular-webfont.woff2) format ('woff2');
+}
+
+@font-face {
+    font-family: 'Kadwa';
+    src: url(../font/kadwa-regular-webfont.woff2) format ('woff2');
+}
+
 html {
     --color1: #732E1F;
     --color2: #D93814;
