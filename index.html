@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ÅBENBAR- FORSIDE</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/generel_style.css" />
     <link
       rel="icon"
@@ -13,11 +16,28 @@
     />
   </head>
   <body>
-    <header></header>
+    <header>
+      <section class="top-nav">
+        <div>
+          <img class="logo" src="logo/logo_hvid.svg" alt="Åben Bar" />
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-button-container" for="menu-toggle">
+          <div class="menu-button"></div>
+        </label>
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="om_os.html">Om os</a></li>
+            <li><a href="menu.html">Menukort</a></li>
+            <li><a class="knap" href="bookbord.html">Book Bord</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
     <main>
       <div class="hero"></div>
-
-      <section>
+      <section class="section_1">
         <div class="box_1">
           <img src="img/alkohol.webp" />
         </div>
@@ -29,12 +49,91 @@
           </p>
         </div>
       </section>
-
-      <section>
+      <section class="section_2">
         <div class="box_3"></div>
-        <div class="box_4"></div>
+        <div class="box_4">
+          <img src="img/slider3.webp" alt="" />
+        </div>
+      </section>
+      <section class="section_3">
+        <div class="slider">
+          <div class="slider-container">
+            <div class="slide">
+              <img src="img/slider1.webp" alt="Billede 1" />
+            </div>
+            <div class="slide">
+              <img src="img/slider2.webp" alt="Billede 2" />
+            </div>
+            <div class="slide">
+              <img src="img/slider3.webp" alt="Billede 3" />
+            </div>
+            <div class="slide">
+              <img src="img/slider4.webp" alt="Billede 4" />
+            </div>
+            <div class="slide">
+              <img src="img/slider1.webp" alt="Billede 5" />
+            </div>
+            <div class="slide">
+              <img src="img/slider2.webp" alt="Billede 6" />
+            </div>
+            <div class="slide">
+              <img src="img/slider3.webp" alt="Billede 7" />
+            </div>
+            <div class="slide">
+              <img src="img/slider4.webp" alt="Billede 8" />
+            </div>
+          </div>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="div1">
+        <h3>Åbningstider</h3>
+        <div class="flex">
+          <ul class="dage">
+            <li>Mandag</li>
+            <li>Tirsdag</li>
+            <li>Onsdag</li>
+            <li>Torsdag</li>
+            <li>Fredag</li>
+            <li>Lørdag</li>
+            <li>Søndag</li>
+          </ul>
+          <ul class="tider">
+            <li>14-23</li>
+            <li>14-23</li>
+            <li>14-23</li>
+            <li>10-00</li>
+            <li>10-01</li>
+            <li>10-01</li>
+            <li>10-23</li>
+          </ul>
+        </div>
+      </div>
+      <div class="div2">
+        <img class="logo" src="logo/logo_hvid.svg" alt="ÅBENBAR" />
+        <div class="some">
+          <a href="https://www.facebook.com/aabenbarNV">
+            <img src="favicon_io (4)/facebook.svg" alt="Facebook" />
+          </a>
+          <a href="https://www.instagram.com/aabenbar/?hl=da">
+            <img src="favicon_io (4)/🦆 icon _instagram_.svg" alt="instagram" />
+          </a>
+        </div>
+      </div>
+      <div class="div3">
+        <h3>Kontakt os</h3>
+        <p>
+          Frimestervej 2 <br />
+          2400 København NV
+        </p>
+        <p>+ 45 42 94 94 80</p>
+        <p>event@aabenbar.dk</p>
+      </div>
+    </footer>
   </body>
 </html>
+
+
+
+
