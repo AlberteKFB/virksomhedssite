@@ -1,13 +1,14 @@
 @import url(../font/dmserifdisplay-regular-webfont.woff2);
 @import url(../font/kadwa-regular-webfont.woff2);
+
 @font-face {
-  font-family: "DM Serif";
-  src: url(../font/dmserifdisplay-regular-webfont.woff2) format ("woff2");
+  font-family: DMSerif;
+  src: url(../font/dmserifdisplay-regular-webfont.woff2);
 }
 
 @font-face {
-  font-family: "Kadwa";
-  src: url(../font/kadwa-regular-webfont.woff2) format ("woff2");
+  font-family: Kadwa;
+  src: url(../font/kadwa-regular-webfont.woff2);
 }
 
 html {
