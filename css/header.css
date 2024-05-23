@@ -160,7 +160,7 @@ header section {
 
   .knap {
     background-color: var(--color2);
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 1em;
   }
 
