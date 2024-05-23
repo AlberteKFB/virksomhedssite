@@ -59,3 +59,7 @@ button {
 button:hover {
     background-color: var(--color3);
 }
+
+#bookbord_img img {
+    max-width: 100%;
+}
