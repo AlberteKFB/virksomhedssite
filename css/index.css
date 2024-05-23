@@ -1,6 +1,16 @@
 body {
   background: var(--color6);
 }
+
+.box_1,
+.box_2 {
+  border-top: 1px solid var(--color5);
+}
+
+.box_3,
+.box_4 {
+  border-bottom: 1px solid var(--color5);
+}
 .box_1 img {
   width: 350px;
   height: 350px;
@@ -62,6 +72,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 1px solid var(--color5);
   }
   .box_1 img {
     width: 350px;
@@ -124,6 +135,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 1px solid var(--color5);
   }
 
   .slider {
@@ -133,6 +145,7 @@ body {
     overflow: hidden;
     background-color: #d93814;
     margin-bottom: 1.3em;
+    border: 1px solid var(--color5);
   }
   .slider-container {
     display: flex;
