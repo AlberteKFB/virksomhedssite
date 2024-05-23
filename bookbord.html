@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/generel_style.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/bookbord.css" />
     <link
       rel="icon"
       type="image/png"
@@ -35,15 +36,83 @@
       </section>
     </header>
     <main>
-      <h1>Book Bord</h1>
-      <h2></h2>
-      <section>
+      <div id="bookbord_tekst">
+        <h1>Book Bord</h1>
         <p>
-          Fra 18/4 åbner vi køkken med morgenmad og frokost torsdag til søndag
-          klokken 10-15. Vi kører med "åbne" borde hele fredagen og lørdag efter
-          kl 17, så bare mød op da der ikke kan reserveres bord i den periode.
-          Ved selskaber med 15+ gæster skriv gerne til event@aabenbar.dk
+          Fra d. 18/4 åbner vi køkken med morgenmad og frokost fra torsdag til
+          søndag klokken 10-15. Vi kører med "åbne" borde hele fredagen og
+          lørdag efter kl 17, så bare mød op da der ikke kan reserveres bord i
+          den periode. Ved selskaber med 15+ gæster skriv gerne til
+          event@aabenbar.dk.
         </p>
+      </div>
+      <section id="booking_form">
+        <form>
+          <div>
+            <label for="guests">Antal Gæster:</label>
+            <select id="guests" name="guests" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+            </select>
+          </div>
+          <div>
+            <label for="date">Dato:</label>
+            <input type="date" id="date" name="date" required />
+          </div>
+          <div>
+            <label for="time">Tidspunkt:</label>
+            <select id="time" name="time" required>
+              <option value="10:00">10:00</option>
+              <option value="10:15">10:15</option>
+              <option value="10:30">10:30</option>
+              <option value="10:45">10:45</option>
+              <option value="11:00">11:00</option>
+              <option value="11:15">11:15</option>
+              <option value="11:30">11:30</option>
+              <option value="11:45">11:45</option>
+              <option value="12:00">12:00</option>
+              <option value="12:15">12:15</option>
+              <option value="12:30">12:30</option>
+              <option value="12:45">12:45</option>
+              <option value="13:00">13:00</option>
+              <option value="13:15">13:15</option>
+              <option value="13:30">13:30</option>
+              <option value="13:45">13:45</option>
+              <option value="14:00">14:00</option>
+              <option value="14:15">14:15</option>
+              <option value="14:30">14:30</option>
+              <option value="14:45">14:45</option>
+              <option value="15:00">15:00</option>
+            </select>
+          </div>
+          <div>
+            <label for="name">Navn:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="phone">Telefonnummer:</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              pattern="[0-9]{8}"
+              required
+            />
+          </div>
+          <div>
+            <button type="submit">Book Bord</button>
+          </div>
+        </form>
       </section>
     </main>
     <footer>
