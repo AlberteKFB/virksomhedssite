@@ -24,7 +24,6 @@ body {
   margin-bottom: 1em;
 }
 .box_2 h3 {
-  font-family: DMserif;
   color: white;
   font-size: 30px;
   text-align: center;
@@ -32,7 +31,6 @@ body {
 }
 
 .box_2 p {
-  font-family: Kadwa;
   color: white;
   line-height: 1.7em;
   font-size: 20px;
