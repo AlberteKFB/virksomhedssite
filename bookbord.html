@@ -6,4 +6,162 @@
     <title>ÅBENBAR - Book Bord</title>
     <link rel="stylesheet" href="css/generel_style.css" />
     <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/footer.c
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/bookbord.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_io (4)/favicon-32x32.png"
+    />
+  </head>
+  <body>
+    <header>
+      <section class="top-nav">
+        <div>
+          <img class="logo" src="logo/logo_hvid.svg" alt="Åben Bar" />
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-button-container" for="menu-toggle">
+          <div class="menu-button"></div>
+        </label>
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="om_os.html">Om os</a></li>
+            <li><a href="menu.html">Menukort</a></li>
+            <li><a class="knap" href="bookbord.html">Book Bord</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <div id="bookbord_tekst">
+        <h1>Book Bord</h1>
+        <p>
+          Fra d. 18/4 åbner vi køkken med morgenmad og frokost fra torsdag til
+          søndag klokken 10-15. Vi kører med "åbne" borde hele fredagen og
+          lørdag efter kl 17, så bare mød op da der ikke kan reserveres bord i
+          den periode. Ved selskaber med 15+ gæster skriv gerne til
+          event@aabenbar.dk.
+        </p>
+      </div>
+      <section id="booking_form">
+        <form>
+          <div>
+            <label for="guests">Antal Gæster:</label>
+            <select id="guests" name="guests" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+            </select>
+          </div>
+          <div>
+            <label for="date">Dato:</label>
+            <input type="date" id="date" name="date" required />
+          </div>
+          <div>
+            <label for="time">Tidspunkt:</label>
+            <select id="time" name="time" required>
+              <option value="10:00">10:00</option>
+              <option value="10:15">10:15</option>
+              <option value="10:30">10:30</option>
+              <option value="10:45">10:45</option>
+              <option value="11:00">11:00</option>
+              <option value="11:15">11:15</option>
+              <option value="11:30">11:30</option>
+              <option value="11:45">11:45</option>
+              <option value="12:00">12:00</option>
+              <option value="12:15">12:15</option>
+              <option value="12:30">12:30</option>
+              <option value="12:45">12:45</option>
+              <option value="13:00">13:00</option>
+              <option value="13:15">13:15</option>
+              <option value="13:30">13:30</option>
+              <option value="13:45">13:45</option>
+              <option value="14:00">14:00</option>
+              <option value="14:15">14:15</option>
+              <option value="14:30">14:30</option>
+              <option value="14:45">14:45</option>
+              <option value="15:00">15:00</option>
+            </select>
+          </div>
+          <div>
+            <label for="name">Navn:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="phone">Telefonnummer:</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              pattern="[0-9]{8}"
+              required
+            />
+          </div>
+          <div>
+            <button type="submit">Book Bord</button>
+          </div>
+        </form>
+      </section>
+      <section id="bookbord_img">
+        <img src="img/alkohol.webp" alt="alkohol" />
+      </section>
+    </main>
+    <footer>
+      <div class="div1">
+        <h3>Åbningstider</h3>
+        <div class="flex">
+          <ul class="dage">
+            <li>Mandag</li>
+            <li>Tirsdag</li>
+            <li>Onsdag</li>
+            <li>Torsdag</li>
+            <li>Fredag</li>
+            <li>Lørdag</li>
+            <li>Søndag</li>
+          </ul>
+          <ul class="tider">
+            <li>14-23</li>
+            <li>14-23</li>
+            <li>14-23</li>
+            <li>10-00</li>
+            <li>10-01</li>
+            <li>10-01</li>
+            <li>10-23</li>
+          </ul>
+        </div>
+      </div>
+      <div class="div2">
+        <img class="logo" src="logo/logo_hvid.svg" alt="ÅBENBAR" />
+        <div class="some">
+          <a href="https://www.facebook.com/aabenbarNV">
+            <img src="icons/facebook.svg" alt="Facebook" />
+          </a>
+          <a href="https://www.instagram.com/aabenbar/?hl=da">
+            <img src="icons/instagram.svg" alt="instagram" />
+          </a>
+        </div>
+      </div>
+      <div class="div3">
+        <h3>Kontakt os</h3>
+        <p>
+          Frimestervej 2 <br />
+          2400 København NV
+        </p>
+        <p>+ 45 42 94 94 80</p>
+        <p>event@aabenbar.dk</p>
+      </div>
+    </footer>
+  </body>
+</html>
