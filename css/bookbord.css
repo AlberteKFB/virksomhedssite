@@ -29,14 +29,10 @@ form {
     border-radius: 5px;
 }
 
-div {
-    margin-bottom: 1em;
-}
-
 label {
-    margin-bottom: .5em;
     color: var(--color5);
     display: block;
+    font-family: Kadwa;
 }
 
 input, select {
@@ -45,6 +41,7 @@ input, select {
     font-size: 1em;
     width: 100%;
     box-sizing: border-box;
+    margin-bottom: 1em;
 }
 
 button {
@@ -58,4 +55,8 @@ button {
 
 button:hover {
     background-color: var(--color3);
+}
+
+#bookbord_img img {
+    max-width: 100%;
 }
