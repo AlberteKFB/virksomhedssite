@@ -1,22 +1,26 @@
+@import url(../font/dmserifdisplay-regular-webfont.woff2);
+@import url(../font/kadwa-regular-webfont.woff2);
+
 @font-face {
-    font-family: 'DM Serif';
-    src: url(../font/dmserifdisplay-regular-webfont.woff2) format ('woff2');
+  font-family: DMSerif;
+  src: url(../font/dmserifdisplay-regular-webfont.woff2);
 }
 
 @font-face {
-    font-family: 'Kadwa';
-    src: url(../font/kadwa-regular-webfont.woff2) format ('woff2');
+  font-family: Kadwa;
+  src: url(../font/kadwa-regular-webfont.woff2);
 }
 
 html {
-    --color1: #732E1F;
-    --color2: #D93814;
-    --color3: #F27649;
-    --color4: #261F1B;
-    --color5: #F2E9CE;
-    --color6: #332924;
+  --color1: #732e1f;
+  --color2: #d93814;
+  --color3: #f27649;
+  --color4: #261f1b;
+  --color5: #f2e9ce;
+  --color6: #332924;
 }
 
-html, body {
-    margin: 0 auto;
+html,
+body {
+  margin: 0 auto;
 }
