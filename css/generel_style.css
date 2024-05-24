@@ -4,4 +4,19 @@
 }
 
 @font-face {
-    font-fa
+    font-family: 'Kadwa';
+    src: url(../font/kadwa-regular-webfont.woff2) format ('woff2');
+}
+
+html {
+    --color1: #732E1F;
+    --color2: #D93814;
+    --color3: #F27649;
+    --color4: #261F1B;
+    --color5: #F2E9CE;
+    --color6: #332924;
+}
+
+html, body {
+    margin: 0 auto;
+}
