@@ -15,12 +15,8 @@ h3 {
   color: #f2e9ce;
 }
 h1 {
-  text-align: center;
   background-color: var(--color3);
-}
-
-.videodiv {
-  background-color: var(--color5);
+  text-align: center;
 }
 
 .section1 {
@@ -104,6 +100,43 @@ footer h3 {
 }
 .omosbil {
   width: 450px;
+  padding: 5%;
+}
+
+@media (max-width: 500px) {
+  .section2 {
+    display: block;
+    text-align: center;
+  }
+
+  .section2 img {
+    max-width: 80%;
+    max-height: auto;
+  }
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 6%;
+}
+
+.video-section {
+  display: flex; /* Brug Flexbox-layout */
+  justify-content: center; /* Centrer indholdet horisontalt */
+  align-items: center; /* Centrer indholdet vertikalt */
+  background-color: var(--color5); /* Tilføj din ønskede baggrundsfarve */
+}
+
+.video-section .videodiv {
+  width: 100%; /* Fyld hele bredden af video-section */
+  height: 100%; /* Fyld hele højden af video-section */
+}
+
+.video-section video {
+  width: 100%; /* Fyld hele bredden af video-elementet */
+  height: 100%; /* Fyld hele højden af video-elementet */
 }
 
 @media (min-width: 500px) {
@@ -132,16 +165,15 @@ footer h3 {
   .some {
     width: 40%;
   }
-  .section1 {
+  /* .section1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+    grid-template-columns: 1fr;
+  } */
+
   .omosp {
     grid-column: 1;
   }
-  .videodiv {
-    grid-column: 2;
-  }
+
   .section2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -151,5 +183,77 @@ footer h3 {
   }
   .section2 img {
     grid-column: 2;
+  }
+
+  .section2 {
+    display: flex; /* Brug Flexbox-layout */
+    justify-content: center; /* Centrer indholdet horisontalt */
+    align-items: center; /* Centrer indholdet vertikalt */
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+    padding: 2%;
+  }
+  h2 {
+    margin-top: 20px;
+  }
+  .section1 {
+    grid-column: 1;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "header header"
+      "section1 video-section"
+      "section2 section2";
+  }
+
+  h1 {
+    grid-area: header;
+    width: 100%;
+    text-align: left;
+  }
+
+  .section1 {
+    grid-area: section1;
+  }
+
+  .video-section {
+    grid-area: video-section;
+  }
+
+  .section2 {
+    grid-area: section2;
+    width: 100%;
+  }
+
+  .video-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color5);
+  }
+
+  .video-section .videodiv {
+    width: 80%;
+    max-width: 800px;
+    padding: 5%;
+  }
+
+  .video-section video {
+    width: 100%;
+    height: auto;
   }
 }
