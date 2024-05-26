@@ -2,6 +2,10 @@ body {
     background-color: var(--color5);
 }
 
+main {
+    display: block;
+}
+
 #bookbord_tekst {
     margin: auto;
     /* max-width: 600px; */
@@ -65,19 +69,43 @@ button:hover {
     margin: 10px;
 }
 
+@media (max-width: 732px) {
+h1, p {
+    padding: 5px;
+}
+
+#bookbord_img img {
+    margin: 0;
+    border: solid 1px var(--color5);
+}
+}
+
 @media (min-width: 733px) {
+
 .grid1_1 {
-    display: grid;
+display: grid;
 grid-template-columns: 1fr 1fr;
 gap: 1em;
+align-items: center;
 }
 
 #bookbord_indhold {
+display: grid;
 grid-column: 1/2;
+justify-items: center;
 }
 
 #bookbord_img {
 grid-column: 2/3;
+text-align: right;
+}
+
+form {
+width: 600px;
+}
+
+#bookbord_img img {
+min-width: 500px;
 }
 
 }
