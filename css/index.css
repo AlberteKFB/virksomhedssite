@@ -185,12 +185,10 @@ body {
   .section_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
   }
   .box_1 {
     grid-row: 2;
   }
-
   .box_2 {
     grid-row: 2;
   }
