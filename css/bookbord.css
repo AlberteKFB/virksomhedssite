@@ -8,8 +8,7 @@ main {
 
 #bookbord_tekst {
     margin: auto;
-    /* max-width: 600px; */
-/*     background-color: var(--color3); */
+    max-width: 600px;
 }
 
 #bookbord_tekst h1 {
@@ -17,6 +16,7 @@ main {
     margin: 10px;
     background-color: transparent;
     text-align: left;
+    padding: 0;
 }
 
 #bookbord_tekst p {
@@ -24,6 +24,7 @@ main {
     color: var(--color6);
     font-size: 16px;
     line-height: 130%;
+    padding: 0;
 }
 
 form {
@@ -53,6 +54,7 @@ input, select {
 button {
     padding: 1em;
     color: #fff;
+    font-family: Kadwa;
     background-color: var(--color2);
     border: none;
     border-radius: 5px;
