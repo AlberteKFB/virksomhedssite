@@ -134,4 +134,7 @@ p {
   .some {
     width: 40%;
   }
+  footer p {
+    padding: 2%;
+  }
 }
