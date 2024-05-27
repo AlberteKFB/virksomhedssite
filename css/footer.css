@@ -108,7 +108,7 @@ p {
   color: #f2e9ce;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 700px) {
   footer {
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
