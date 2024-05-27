@@ -39,7 +39,6 @@ body {
   .box_2 {
     background-color: #f27649;
     margin-top: 2.5em;
-    padding: 3.4em;
   }
   .box_3 img {
     width: 350px;
@@ -67,7 +66,7 @@ body {
   .slider {
     margin: 0.5%;
     margin-bottom: 0.5%;
-    width: 250%;
+    width: 200%;
     overflow: hidden;
     background-color: #d93814;
     margin-bottom: 2.5em;
@@ -94,7 +93,7 @@ body {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-190%);
+      transform: translateX(-350%);
     }
   }
   /* LAYOUT */
