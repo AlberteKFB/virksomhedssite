@@ -102,7 +102,7 @@ header section {
 }
 
 /* mobile */
-@media (max-width: 732px) {
+@media (max-width: 814px) {
   nav {
     display: contents;
   }
@@ -151,7 +151,7 @@ header section {
 }
 
 /* desktop */
-@media (min-width: 733px) {
+@media (min-width: 815px) {
   .menu {
     height: 100%;
   }
