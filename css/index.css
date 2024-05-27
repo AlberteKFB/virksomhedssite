@@ -94,7 +94,7 @@ body {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-400%);
+      transform: translateX(-350%);
     }
   }
   /* LAYOUT */
