@@ -14,10 +14,18 @@ img {
   }
 
 .col{
-    padding: 2cap;
+    align-items: center;
+    padding-left: 20cap;
+    padding-right: 20cap;
+    padding-bottom: 1cap;
 }
 iframe {
-    width: 680px;
-    height: 950px;
+    height: 1450px;
+    width: 1015px;
       border: none;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
   }
+
+  
