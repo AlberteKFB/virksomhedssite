@@ -63,6 +63,12 @@ body {
     margin-bottom: 2.5em;
   }
 
+  iframe {
+    width: 500px;
+    height: 350px;
+    padding-left: 5em;
+    border: none;
+  }
   .slider {
     margin: 0.5%;
     margin-bottom: 0.5%;
