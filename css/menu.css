@@ -1,3 +1,23 @@
 body {
     background-color: var(--color5);
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+.col{
+    padding: 2cap;
+}
+iframe {
+    width: 680px;
+    height: 950px;
+      border: none;
+  }
