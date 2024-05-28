@@ -75,7 +75,7 @@ body {
     display: flex;
     width: 800px;
     height: 400px;
-    animation: slide 9s linear infinite;
+    animation: slide 20s linear infinite;
     margin-top: 1em;
     margin-bottom: 1em;
   }
