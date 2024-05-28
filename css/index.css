@@ -196,10 +196,10 @@ body {
 }
 
 iframe {
-  width: 350px;
-  height: 350px;
-  margin-left: 9em;
-  margin-top: 1.3em;
-  margin-bottom: 1em;
+  width: 220px;
+  height: 220px;
+  margin-left: 15em;
+  margin-top: 9em;
+  margin-bottom: 9em;
   border: none;
 }
