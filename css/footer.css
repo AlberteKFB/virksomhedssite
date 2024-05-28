@@ -2,7 +2,7 @@ a {
   color: #f2e9ce;
 }
 footer {
-  background-color: #332924;
+  background-color: var(--color6);
 }
 ul {
   list-style: none;
