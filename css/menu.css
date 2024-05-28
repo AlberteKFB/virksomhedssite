@@ -1,6 +1,7 @@
 body {
     background-color: var(--color5);
 }
+@media (min-width: 732px) {
 
 img, iframe {
     max-width: 100%;
@@ -23,5 +24,35 @@ iframe {
     overflow: hidden;
     display: block;
     aspect-ratio: 1015/1450;
-  } 
+  }     
 
+    }
+
+
+
+  @media (max-width: 732px) {
+
+    
+    img, iframe {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .col{
+        align-items: center;
+        padding-left: 0cap;
+        padding-right: 0cap;
+        padding-bottom: 1cap;
+    }
+    iframe {
+    /*     height: 1450px;
+        width: 1015px; */
+        width: 100%;
+        height: auto;
+        border: none;
+        overflow: hidden;
+        display: block;
+        aspect-ratio: 1015/1450;
+      }  
+    }
