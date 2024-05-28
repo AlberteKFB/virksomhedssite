@@ -160,6 +160,14 @@ body {
     margin-top: 1.3em;
     margin-bottom: 1.3em;
   }
+
+  iframe {
+    width: 500px;
+    height: 350px;
+    padding-right: 2em;
+    border: none;
+  }
+
   .slider {
     margin: 0.5%;
     margin-bottom: 0.5%;
@@ -193,11 +201,4 @@ body {
       transform: translateX(-200%);
     }
   }
-}
-
-iframe {
-  width: 500px;
-  height: 350px;
-  margin-left: 6em;
-  border: none;
 }
