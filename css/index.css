@@ -2,7 +2,7 @@ body {
   background: var(--color6);
 }
 
-.box_2 h3 {
+#h3 {
   color: white;
   font-size: 30px;
   text-align: center;
@@ -11,10 +11,8 @@ body {
 
 .box_2 p {
   color: white;
-  line-height: 1.7em;
   font-size: 20px;
   text-align: center;
-  padding-top: 1em;
 }
 /* desktop */
 @media (min-width: 733px) {
