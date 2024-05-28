@@ -197,9 +197,7 @@ body {
 
 iframe {
   width: 500px;
-  height: 500px;
-  margin-left: 7cap;
-  margin-top: 2cap;
-  margin-bottom: 2cap;
+  height: 350px;
+  margin-left: 6em;
   border: none;
 }
