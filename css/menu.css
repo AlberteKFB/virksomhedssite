@@ -15,10 +15,13 @@ img, iframe {
     padding-bottom: 1cap;
 }
 iframe {
-    height: 1450px;
-    width: 1015px;
-      border: none;
-  overflow: hidden;
-  display: block;
-  }
+/*     height: 1450px;
+    width: 1015px; */
+    width: 100%;
+    height: auto;
+    border: none;
+    overflow: hidden;
+    display: block;
+    aspect-ratio: 1015/1450;
+  } 
 
