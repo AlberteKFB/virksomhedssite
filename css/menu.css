@@ -2,16 +2,11 @@ body {
     background-color: var(--color5);
 }
 
-img {
+img, iframe {
     max-width: 100%;
     height: auto;
     display: block;
 }
-
-.grid_1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
 
 .col{
     align-items: center;
@@ -24,8 +19,6 @@ iframe {
     width: 1015px;
       border: none;
   overflow: hidden;
-  display: flex;
-  align-items: center;
+  display: block;
   }
 
-  
